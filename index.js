@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGO_URL, {
 
 
 app.use(cors({
-  origin: 'http://blogifyproject-env.eba-3snt3wpf.ap-south-1.elasticbeanstalk.com/api',
+  origin: 'https://blogify-frontend-eosin.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
